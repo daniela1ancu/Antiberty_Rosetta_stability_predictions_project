@@ -20,7 +20,7 @@ files = os.listdir(input_folder)  # retrieves the filenames in the folder
 
 for file in files:
     if "_h_" in file:
-        source_path = os.path.join(input_folder,file)  # crreates the source path
+        source_path = os.path.join(input_folder,file)  # creates the source path
         destination_path = os.path.join(output_folder_h,file)  # creates the destination path
         shutil.move(source_path, destination_path)  # moves the file from source to destination
     else:
