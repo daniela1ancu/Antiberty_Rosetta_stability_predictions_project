@@ -1,22 +1,15 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 import os
 import shutil
 import pandas as pd
 import pickle as pkl
 import numpy as np
-import ast
-import re
 
 
 # ## Sort files
 # The original data comes in the folder "pseudo_log_likelihood" which contain both the H-chain and the L-chain pseudologs. We first need to sort this into only the H-chain and L-chain folders to make it easier to work with.
-
-# In[ ]:
 
 
 input_folder = "Initial data/pseudo_log_likelihood_csv_melted_scaled"
